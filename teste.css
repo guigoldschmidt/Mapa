@@ -1,17 +1,13 @@
-#norte:hover{
-    transform: translateX(-1px) translateY(-5px);
+main{
+    display: flex;
+    justify-content: center;
 }
-#sul:hover{
-    transform: translateX(-1px) translateY(-5px);
-}
-#centroOeste:hover{
-    transform: translateX(-1px) translateY(-5px);
-}
-#nordeste:hover{
-    transform: translateX(-1px) translateY(-5px);
 
-}
-#sudeste:hover{
+#sul:hover,
+#norte:hover,
+#nordeste:hover,
+#centroOeste:hover,
+#sudeste:hover
+{
     transform: translateX(-1px) translateY(-5px);
-
 }
